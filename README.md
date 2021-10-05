@@ -1,6 +1,6 @@
 # RWTH Wall Calendar to ICS Converter
 
-Uses the PDF version of the calendar, converts it into HTML using Python, uses Julia to match each event to a specific date using the Euclidian distance ${\|\boldsymbol{x}\|}_2$ to the nearest number $i \in \{1,2,\dots,31\}$ while the numbers $i$ are then matched to their corresponding month using just the $x_2$-coordinate and finally uses Python again to create the `ICS` calendar.
+Uses the PDF version of the calendar, converts it into HTML using Python, uses Julia to match each event to a specific date using the Euclidian distance <img src="https://render.githubusercontent.com/render/math?math={\|\boldsymbol{x}\|}_2"> to the nearest number <img src="https://render.githubusercontent.com/render/math?math=i \in \{1,2,\dots,31\}"> while the numbers <img src="https://render.githubusercontent.com/render/math?math=i"> are then matched to their corresponding month using just the <img src="https://render.githubusercontent.com/render/math?math=x_2">-coordinate and finally uses Python again to create the `ICS` calendar.
 
 ## Tutorial
 
